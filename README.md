@@ -1,27 +1,26 @@
+# API REST de Spring Boot
 
-# Spring Boot REST API
+Este proyecto es una aplicación de Spring Boot que proporciona varios servicios web RESTful. A continuación se describen los endpoints disponibles.
 
-This project is a Spring Boot application that provides various RESTful web services. Below are the available endpoints.
+## Controlador de Catálogo
 
-## Catalogo Controller
-
-Base URL: `/api/catalogo`
+URL base: `/api/catalogo`
 
 - `GET /api/catalogo/`
-  - Retrieves a list of catalog items.
+  - Recupera una lista de elementos del catálogo.
 - `GET /api/catalogo/{id}`
-  - Retrieves a specific catalog item by ID.
+  - Recupera un elemento específico del catálogo por su ID.
 
-## Encryption Controller
+## Controlador de Encriptación
 
-Base URL: `/api/encryption`
+URL base: `/api/encryption`
 
 - `POST /api/encryption/encrypt`
-  - Encrypts the given data.
+  - Encripta los datos proporcionados.
 
-## Pokemon Controller
+## Controlador de Pokémon
 
-Base URL: `/api/pokemon`
+URL base: `/api/pokemon`
 
 - `GET /api/pokemon/ditto`
-  - Retrieves information about the Pokémon Ditto.
+  - Recupera información sobre el Pokémon Ditto.
