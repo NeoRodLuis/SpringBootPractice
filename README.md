@@ -18,8 +18,6 @@ Base URL: `/api/encryption`
 
 - `POST /api/encryption/encrypt`
   - Encrypts the given data.
-- `POST /api/encryption/decrypt`
-  - Decrypts the given data.
 
 ## Pokemon Controller
 
